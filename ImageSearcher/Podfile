@@ -1,0 +1,25 @@
+
+platform :ios, '10.0'
+
+target 'ImageSearcher' do
+    use_frameworks!
+    
+    #networking
+    pod 'Alamofire'
+    pod 'AlamofireObjectMapper', '~> 5.0'
+
+    #infrastructure
+    pod 'RxSwift',    '~> 4.0'
+    pod 'RxCocoa',    '~> 4.0'
+    pod 'RxDataSources', '~> 3.0'
+    pod 'NSObject+Rx'
+    
+    #utilities
+    pod 'Kingfisher', '~> 4.0'
+    pod 'R.swift'
+    
+    #UI
+    pod 'SnapKit'
+    pod 'NYTPhotoViewer', '~> 1.1.0'
+    
+end
